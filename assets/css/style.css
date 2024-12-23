@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  display: flex;
+}
+
+main {
+  background-color: white;
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  border: 1px solid rgb(169, 165, 165);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border: 0cap;
+  gap: 5px;
+}
+.status {
+  border: 0cap;
+}
+
+p {
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  width: 70px;
+  border-radius: 50%;
+}
+
+.perf {
+  justify-content: space-between;
+  height: 100px;
+  width: 300px;
+  border-bottom: 1px solid;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  background-color: #a491d2;
+  justify-self: center;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: white;
+  width: 70%;
+  height: 50%;
+  border: 0cap;
+}
+.boton {
+  border-bottom: 1px solid rgb(86, 81, 81);
+  justify-content: center;
+  width: 300px;
+  height: 100px;
+  padding: 5px;
+}
+
+.roboto-thin {
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.perf {
+  display: flex;
+  border: 0cap;
+  justify-content: space-around;
+}
+.main-user {
+  display: flex;
+  border: 0cap;
+}
+
+.user-status {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  border: 0cap;
+  padding: 5px;
+}
+
+.icon {
+  border: 0cap;
+  gap: 10px;
+  justify-items: end;
+}
+
+.contactos {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 5px;
+  gap: 20px;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  justify-content: start;
+}
+
+.main-screen {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 10px;
+  border: 0cap;
+  padding-top: 10px;
+}
+
+.main-logo {
+  border-radius: 10%;
+  width: 30%;
+}
